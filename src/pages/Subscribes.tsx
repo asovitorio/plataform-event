@@ -22,8 +22,8 @@ export const Subscribe =  () => {
     event.preventDefault();
   await  createSubscriber({
       variables:{
-       name,
-       email
+       name:String(name),
+       email:String(name)
       }
     })
     navigate('/event')
