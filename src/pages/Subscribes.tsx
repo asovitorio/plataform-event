@@ -17,7 +17,7 @@ export const Subscribe =  () => {
   const [createSubscriber,{loading}] = useCreateSubscriberMutation()
   
   
-  
+  // função para mutation
   async function handleSubscribe(event: FormEvent) {
     event.preventDefault();
   await  createSubscriber({
