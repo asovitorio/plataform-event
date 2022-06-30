@@ -1,0 +1,1 @@
+- [ ] parei no dia 24/06/22 - 32 minutos
